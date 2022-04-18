@@ -426,7 +426,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Kyy-UserBot"
+    session = "Ciio-UserBot"
 try:
     bot = TelegramClient(
         session=session,
@@ -805,23 +805,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ҡʏʏ-υѕєявσт ✨",
-                    description="Kyy - Userbot | Telethon",
-                    url="https://t.me/NastyProject",
+                    title="✨ 𝚌𝚒𝚒𝚘-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ✨",
+                    description="Ciio - Userbot | Telethon",
+                    url="https://t.me/projectcio",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Kyy-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @NastyProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Ciio-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @projectcio\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/NastySupportt"),
+                                "https://t.me/projectcio"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "https://github.com/cioyourfvboynih/Ciio-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -870,7 +870,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Kyy-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ҡʏʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**")
+                    f"**⚡😈 𝚌𝚒𝚘-𝚄𝚜𝚎𝚛𝚋𝚘𝚝 ɪɴʟɪɴᴇ ᴍᴇɴᴜ 😈⚡**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**")
                 await event.edit(
                     text,
                     file=kyylogo,
