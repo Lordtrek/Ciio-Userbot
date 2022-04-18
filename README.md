@@ -1,8 +1,8 @@
 <h1 align="center">𝗖𝗶𝗶𝗼-𝗨𝘀𝗲𝗿𝗯𝗼𝘁</h1>
 
 <p align="center">
-    <a href="https://github.com/cioyourfvboynih/Ciio-Userbot/commits/Ciio-Userbot"><img src="https://img.shields.io/github/last-commit/muhammadrizky16/Kyy-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
-    <a href="https://github.com/muhammadrizky16/Kyy-Userbot"> <img src="https://img.shields.io/github/repo-size/cioyourfvboynih/Ciio-Userbot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/cioyourfvboynih/Ciio-Userbot/commits/Ciio-Userbot"><img src="https://img.shields.io/github/last-commit/cioyourfvboynih/Ciio-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/cioyourfvboynih/Ciio-Userbot"> <img src="https://img.shields.io/github/repo-size/cioyourfvboynih/Ciio-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
